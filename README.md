@@ -2,6 +2,13 @@
 
 A simple example that uses Bun and JSX with Bun's native HTTP server
 
+```
+mkdir simple-bun-jsx; cd $_ 
+bun init -y
+bun add react react-dom
+bun add @types/react-dom -d
+```
+
 To install dependencies:
 
 ```bash
